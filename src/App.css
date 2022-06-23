@@ -1,0 +1,80 @@
+.fullbox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.card {
+  border-radius: 5%;
+  display: flex;
+}
+
+.center {
+  width: 400px;
+  max-width: 600px;
+  max-height: 400px;
+  background-color: hsl(244, 38%, 16%);
+  padding: 40px 10px 50px 50px;
+}
+
+.hero {
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(
+      to top,
+      hsla(277, 64%, 61%, 0.5),
+      hsl(277, 64%, 61%, 0.5)
+    ),
+    url("./images/image-header-desktop.jpg") no-repeat top center;
+  justify-content: center;
+  align-items: center;
+}
+
+.evidence {
+  color: purple;
+}
+
+.main {
+  max-width: inherit;
+}
+
+.line {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: url("https://fonts.google.com/specimen/Inter");
+  margin-right: 90px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.459);
+  margin-right: 2em;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 80px 0 -40px;
+  margin-left: -40px;
+  margin-right: 80px;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+}
+
+label {
+  opacity: 0.3;
+  font-size: 0.9em;
+}
+
+li {
+  font-size: 1.2em;
+}
