@@ -7,11 +7,10 @@ export default () => {
     <div className="fullbox">
       <div className="center">
         <h1>
-          Get insights that help <br />
+          Get <spam>insights</spam> that help <br />
           your business grow.
         </h1>
         <p>
-          {" "}
           Discover the benefits of data analytics and make <br />
           better decisions regarding revenue, costumer
           <br /> experience, and overall eficiency
@@ -26,7 +25,6 @@ export default () => {
             <label>TEMPLATES</label>
           </ul>
           <ul>
-            {" "}
             <li>12M+</li>
             <label>QUERIES</label>
           </ul>
